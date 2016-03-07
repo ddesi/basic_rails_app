@@ -1,0 +1,7 @@
+<% @users.each do |u| %>
+<div id="user_list">
+	<li>Username: <%=u.username %></li>
+	<li>Email: <%=u.email %></li>
+	<li>Pwd: <%=u.password %></li>
+</div>
+<% end %>
